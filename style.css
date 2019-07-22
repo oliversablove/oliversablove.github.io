@@ -45,16 +45,18 @@ body {
 
 .home-inner {
   background-image: url(img/computers.png);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .caption {
   width: 100%;
   max-width: 100%;
+  margin: 0 auto;
   position: absolute;
   top: 38%;
   z-index: 1;
   color: white;
-  text-transform: uppercase;;
+  text-transform: uppercase;
 }
 
 .caption h1 {
@@ -62,20 +64,35 @@ body {
   font-weight: 700;
   letter-spacing: .2rem;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
 }
 
 .caption h3 {
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
-  padding-bottom: 1.6rem;
+  padding-bottom: .4rem;
+}
+
+.caption a {
+  color: white;
+}
+
+.caption svg.svg-inline--fa {
+  margin: 0 .5rem 0 0;
+  text-shadow: .1rem .1rem .8rem black;
+}
+
+.caption svg.svg-inline--fa:hover {
+  color: #F75E4F!important
 }
 
 .btn-lg {
   border-width: medium;
   border-radius: 0;
   padding: .6rem 1.3rem;
-  font-size: 1.1rem;
+  font-size: .9rem;
+  margin-top: 6rem;
+  margin-right: .6575rem;
+  text-shadow: .1rem .1rem .8rem black;
 }
 
 /*--- Projects Section ---*/
@@ -103,12 +120,12 @@ h3.heading {
 /*--- Skills Section ---*/
 
 .fixed {
-  background-image: url(img/apple.png);
+  background-image: url(img/lake.jpeg);
   z-index: -1;
 }
 
 .dark {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   padding: 7rem 2rem;
   min-width: 100%;
@@ -156,9 +173,15 @@ hr.socket {
     padding-bottom: 1.2rem;
   }
 
+  .caption svg.svg-inline--fa {
+    font-size: 2.5rem;
+  }
+
   .btn-lg {
     padding: .5rem 1rem;
-    font-size: 1rem;
+    font-size: .8rem;
+    margin-top: 4rem;
+    margin-right: .8rem;
   }
 }
 /*============ BOOTSTRAP BREAK POINTS:

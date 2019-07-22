@@ -6,7 +6,14 @@ body {
   color: #505962;
 }
 
-/* Navigation */
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/*--- Navigation ---*/
 
 .navbar {
   text-transform: uppercase;
@@ -31,10 +38,10 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3
+  color: #F75E4F
 }
 
-/* Landing Page */
+/*--- Landing Page ---*/
 
 .home-inner {
   background-image: url(img/computers.png);
@@ -53,7 +60,7 @@ body {
 .caption h1 {
   font-size: 3.8rem;
   font-weight: 700;
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1rem;
 }
@@ -71,7 +78,89 @@ body {
   font-size: 1.1rem;
 }
 
+/*--- Projects Section ---*/
 
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #F75E4F;
+  margin: 0 auto 2rem;
+}
+
+/*--- Skills Section ---*/
+
+.fixed {
+  background-image: url(img/apple.png);
+  z-index: -1;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+  min-width: 100%;
+}
+
+.feature svg.svg-inline--fa {
+  color: #F75E4F;
+}
+
+/*--- Contact Section ---*/
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+/*--- Media Queries ---*/
+
+@media (max-width: 767px) {
+
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)

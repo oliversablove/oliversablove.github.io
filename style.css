@@ -20,7 +20,7 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(0, 0, 0, .6)!important;
+  background: rgba(0, 0, 0, 0)!important;
 }
 
 .navbar-brand img {
@@ -38,14 +38,13 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #F75E4F
+  color: #f75e4f
 }
 
 /*--- Landing Page ---*/
 
 .home-inner {
-  background-image: url(img/computers.png);
-  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(img/trees.jpeg);
 }
 
 .caption {
@@ -82,7 +81,7 @@ body {
 }
 
 .caption svg.svg-inline--fa:hover {
-  color: #F75E4F!important
+  color: #f75e4f!important
 }
 
 .btn-lg {
@@ -96,8 +95,9 @@ body {
 }
 
 .btn-lg:hover {
-  background-color: #F75E4F;
-  color: white;
+  color: #f75e4f;
+  border-color: #f75e4f;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /*--- Projects Section ---*/
@@ -118,7 +118,7 @@ h3.heading {
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: #F75E4F;
+  background-color: #f75e4f;
   margin: 0 auto 2rem;
 }
 
@@ -182,7 +182,7 @@ h3.heading {
 }
 
 .project-buttons a:hover {
-  background-color: #F75E4F;
+  background-color: #f75e4f;
   color: white;
 }
 /*--- Skills Section ---*/
@@ -200,7 +200,7 @@ h3.heading {
 }
 
 .feature svg.svg-inline--fa {
-  color: #F75E4F;
+  color: #f75e4f;
 }
 
 /*--- Contact Section ---*/

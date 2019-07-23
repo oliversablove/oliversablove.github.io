@@ -13,5 +13,5 @@
     $(this).find('.card-hover').css({'top': '100%'})
 
   })
-  
+
 })(jQuery);

@@ -95,6 +95,11 @@ body {
   text-shadow: .1rem .1rem .8rem black;
 }
 
+.btn-lg:hover {
+  background-color: #F75E4F;
+  color: white;
+}
+
 /*--- Projects Section ---*/
 
 .jumbotron {
@@ -154,7 +159,7 @@ h3.heading {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(40, 190, 168, 0.9);
+  background-color: rgba(67, 78, 94, 0.3);
   z-index: 10;
   display: flex;
   align-items: center;
@@ -169,6 +174,17 @@ h3.heading {
   transition: ease-in-out 0.2s;
 }
 
+.project-buttons a {
+  border-width: medium;
+  border-radius: 0;
+  margin-top: 9rem;
+  margin-right: 1rem;
+}
+
+.project-buttons a:hover {
+  background-color: #F75E4F;
+  color: white;
+}
 /*--- Skills Section ---*/
 
 .fixed {

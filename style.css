@@ -76,7 +76,7 @@ body {
 }
 
 .caption svg.svg-inline--fa {
-  margin: 0 .5rem 0 0;
+  margin: 0 auto;
   text-shadow: .1rem .1rem .8rem black;
 }
 
@@ -89,8 +89,7 @@ body {
   border-radius: 0;
   padding: .6rem 1.3rem;
   font-size: .9rem;
-  margin-top: 6rem;
-  margin-right: .5rem;
+  margin: 6rem auto;
   text-shadow: .1rem .1rem .8rem black;
 }
 
@@ -162,12 +161,8 @@ h3.heading {
   background-color: rgba(67, 78, 94, 0.3);
   z-index: 10;
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: #fff;
-  flex-direction: column;
-  box-sizing: border-box;
-  padding: 30px;
+  align-items: flex-end;
   -webkit-transition: ease-in-out 0.2s;
   -moz-transition: ease-in-out 0.2s;
   -ms-transition: ease-in-out 0.2s;
@@ -177,8 +172,7 @@ h3.heading {
 .project-buttons a {
   border-width: medium;
   border-radius: 0;
-  margin-top: 9rem;
-  margin-right: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .project-buttons a:hover {

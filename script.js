@@ -1,7 +1,7 @@
-(function() {
+'use strict'
 
-  'use strict';
-
+$(() => {
+  // project ovrlay
   $('.card').mouseenter(function() {
 
     $(this).find('.card-overlay').css({'top': '-100%'});
@@ -14,4 +14,6 @@
 
   })
 
-})(jQuery);
+  //navbar scroll
+  
+})

@@ -161,7 +161,7 @@ h3.heading {
   background-color: rgba(67, 78, 94, 0.3);
   z-index: 10;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-end;
   -webkit-transition: ease-in-out 0.2s;
   -moz-transition: ease-in-out 0.2s;
@@ -172,12 +172,20 @@ h3.heading {
 .project-buttons a {
   border-width: medium;
   border-radius: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.3rem;
 }
 
 .project-buttons a:hover {
   background-color: #f75e4f;
   color: white;
+}
+
+.view-project {
+  margin-right: .75rem;
+}
+
+.view-code {
+  margin-left: .75rem;
 }
 /*--- Skills Section ---*/
 

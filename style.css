@@ -247,6 +247,11 @@ h3.heading {
   color: #f75e4f;
 }
 
+.feature i {
+  color: #f75e4f;
+  font-size: 2em;
+}
+
 /*--- Contact Section ---*/
 
 footer {

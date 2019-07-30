@@ -174,7 +174,7 @@ h3.heading {
   width: 100%;
   height: 100%;
   z-index: 9;
-  background-color: rgba(67, 78, 94, 0.8);
+  background-color: rgba(40, 47, 51, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,6 +200,33 @@ h3.heading {
   -moz-transition: ease-in-out 0.2s;
   -ms-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
+}
+
+/* Brightness zoom on project image */
+/* Brightness-zoom Container */
+/* .img-hover-zoom--brightness img {
+  transition: transform .75s, filter .5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+} */
+
+/* Image Transform */
+/* .img-hover-zoom--brightness:hover img {
+  filter: brightness(100%);
+  transform: scale(1.1);
+} */
+
+/* Colorize zoom on project image */
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter .75s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* Image Transform */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 .project-buttons a {

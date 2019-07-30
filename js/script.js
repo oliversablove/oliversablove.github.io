@@ -14,5 +14,15 @@ $(() => {
 
   })
 
+  // nav shrink
 
+  $(window).scroll(() => {
+    if ($(window).scrollTop() >= 500) {
+      $('nav').addClass('scrolled')
+      $('.navbar-brand').addClass('scrolled-logo')
+    } else {
+      $('nav').removeClass('scrolled')
+      $('.navbar-brand').removeClass('scrolled-logo')
+    }
+  })
 })

@@ -156,7 +156,6 @@ h3.heading {
 
 .card {
   position: relative;
-  margin-bottom: 50px;
   color: #000;
   border-radius: 0;
   background-color: #fff;
@@ -255,6 +254,14 @@ h3.heading {
 
 .view-code {
   margin-left: .75rem;
+}
+
+.private-project {
+  margin-left: 0 !important;
+}
+
+.design-container {
+  padding-bottom: 50px;
 }
 /*--- Skills Section ---*/
 
